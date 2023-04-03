@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+#menu{
+    height: 20vh;
+    width: 100%;
+    background-color: darkslategray;
+}
+
+#content{
+    margin: 0;
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(65, 47, 95);
+
+}
+
+#list{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
