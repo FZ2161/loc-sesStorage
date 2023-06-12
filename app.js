@@ -11,7 +11,7 @@ function loginn(){
         alert('zalogowano')
         localStorage.setItem('czyZalogowany', 'true')
     }else{
-        alert('nie zalogowano')
+        alert('internet został usunięty')
         localStorage.setItem('czyZalogowany', 'false')
     }
 }
